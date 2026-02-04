@@ -2,5 +2,8 @@
 // const calcStepTwo = document.querySelector(#stepTwo)
 
 function grabInputs() {
-    const userWeight = localStorage.getItem(weightLBS)
+    const weightLBS = document.querySelector("#weightLbs");
+    const userWeight = localStorage.getItem("#goalWeightLbs");
+    const planType = localStorage.getItem("#bulkOrCut");
+
 }
