@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="video-container">
+        <video autoplay muted loop id="video-bg">
+            <source src="assets/calcVid.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="form-container">
+
+        <!-- <div id="StepOne">    -->
+
+            <h2>Protein Tracker</h2>
+
+            <form id="protein-form">
+
+                <div class="input-block">
+                    <label for="weightLbs">Enter Weight In Pounds (lbs): </label>
+                    <input for="weightLbs" id="weightLbs" class="userInput" name="weight" required type="text">
+                </div>            
+                
+                <div class="input-block">
+                    <label for="goalWweightLbs">Enter Goal Weight In Pounds (lbs): </label>
+                    <input for="goalWeightLbs" id="goalWeightLbs" class="userInput" name="goalWeight" required type="text">
+                </div> 
+
+                <div class="input-block">
+                    <label for="bulkOrCut">Enter Bulk/Cut Type </label>
+                    <select name="bulkOrCut" id="bulkOrCut" class="userInput" required>
+                        <option class="dropdown" value="GGbulk">GigaChad Bulk (2lbs/wk)</option>
+                        <option class="dropdown" value="bulk">Bulk (1lbs/wk)</option>
+                        <option class="dropdown" value="leanBulk">Lean Bulk (0.5lbs/wk)</option>
+                        <option class="dropdown" value="maintain">Maintain (0lbs/wk)</option>
+                        <option class="dropdown" value="slowCut">Slow Cut (-0.5lbs/wk)</option>
+                        <option class="dropdown" value="SpeedCut">Speed Cut (-1lbs/wk)</option>                    
+                    </select>
+                </div> 
+
+            </form>
+
+            <div class="input-block">
+                <button id="submitForm" type="submit">
+                    UNLOCK YOUR POTENTIAL
+                </button>
+            </div> 
+
+        <!-- </div>     -->
+
+        <!-- <div id="stepTwo"> -->
+
+
+        <!-- </div> -->
+
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+
+</html>
