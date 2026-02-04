@@ -132,16 +132,18 @@ body {
     border: 0.15rem solid var(--secondaryColor);
     padding: 0.15rem;
     border-radius: 1rem;
-    background: transparent;
+    background-color: transparent;
     color: white;
     width: 15rem;
     text-align: center;   
+    appearance: none;
 }
 
 /* need to make dropdown menu transparent */
 .dropdown {
-    background: none;
-    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    color: black;
+    appearance: none;
 }
 
 #submitForm {
