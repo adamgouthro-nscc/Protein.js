@@ -51,8 +51,8 @@ body {
     margin: 1.5rem;
 }
 
-#getStartedButton {
-    display: inline-block;
+.getStartedButton {
+    display: block;
     width: 20rem;
     font-size: 2rem;
     color: var(--secondaryColor);
@@ -64,8 +64,17 @@ body {
     text-decoration: none;
 }
 
-#getStartedButton:hover {
+#nutriCompare {
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.getStartedButton:hover {
     scale: 1.05;
+}
+
+.getStartedButton:visited {
+    text-decoration: none;
 }
 
 #logo-title {
@@ -155,3 +164,24 @@ body {
     width: 100%;
 } */
 
+/* PORTAL.HTML */
+
+#portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50%;
+}
+
+#goBack {
+    display: block;
+    width: 20rem;
+    font-size: 2rem;
+    color: var(--secondaryColor);
+    border: 0.2rem solid var(--secondaryColor);
+    border-radius: 1rem;
+    background: none;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    text-decoration: none;
+}
